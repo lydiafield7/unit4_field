@@ -1,0 +1,247 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "depth/.zarray": {
+            "chunks": [
+                102
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                102
+            ],
+            "zarr_format": 2
+        },
+        "depth/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth"
+            ],
+            "axis": "Z",
+            "bounds": "depth_bnds",
+            "positive": "down",
+            "standard_name": "depth",
+            "units": "meters"
+        },
+        "lat/.zarray": {
+            "chunks": [
+                180
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                180
+            ],
+            "zarr_format": 2
+        },
+        "lat/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat"
+            ],
+            "axis": "Y",
+            "bounds": "lat_bnds",
+            "long_name": "latitude",
+            "standard_name": "latitude",
+            "units": "degrees_north"
+        },
+        "lon/.zarray": {
+            "chunks": [
+                360
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                360
+            ],
+            "zarr_format": 2
+        },
+        "lon/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lon"
+            ],
+            "axis": "X",
+            "bounds": "lon_bnds",
+            "long_name": "longitude",
+            "standard_name": "longitude",
+            "units": "degrees_east"
+        },
+        "nitrate/.zarray": {
+            "chunks": [
+                26,
+                45,
+                180
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 9.969209968386869e+36,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                102,
+                180,
+                360
+            ],
+            "zarr_format": 2
+        },
+        "nitrate/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth",
+                "lat",
+                "lon"
+            ],
+            "cell_methods": "area: mean depth: mean time: mean within years time: mean over years",
+            "coordinates": "time lat lon depth",
+            "grid_mapping": "crs",
+            "long_name": "Objectively analyzed mean fields for moles_concentration_of_nitrate_in_sea_water at standard depth levels.",
+            "standard_name": "moles_concentration_of_nitrate_in_sea_water",
+            "units": "micromoles_per_kilogram"
+        },
+        "oxygen/.zarray": {
+            "chunks": [
+                26,
+                45,
+                180
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 9.969209968386869e+36,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                102,
+                180,
+                360
+            ],
+            "zarr_format": 2
+        },
+        "oxygen/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth",
+                "lat",
+                "lon"
+            ],
+            "cell_methods": "area: mean depth: mean time: mean within years time: mean over years",
+            "coordinates": "time lat lon depth",
+            "grid_mapping": "crs",
+            "long_name": "Objectively analyzed mean fields for mole_concentration_of_dissolved_molecular_oxygen_in_sea_water at standard depth levels.",
+            "standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+            "units": "micromoles_per_kilogram"
+        },
+        "salinity/.zarray": {
+            "chunks": [
+                26,
+                45,
+                180
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 9.969209968386869e+36,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                102,
+                180,
+                360
+            ],
+            "zarr_format": 2
+        },
+        "salinity/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth",
+                "lat",
+                "lon"
+            ],
+            "cell_methods": "area: mean depth: mean time: mean within years time: mean over years",
+            "coordinates": "time lat lon depth",
+            "grid_mapping": "crs",
+            "long_name": "Objectively analyzed mean fields for sea_water_salinity at standard depth levels.",
+            "standard_name": "sea_water_salinity",
+            "units": "1e-3"
+        },
+        "temp/.zarray": {
+            "chunks": [
+                26,
+                45,
+                180
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 9.969209968386869e+36,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                102,
+                180,
+                360
+            ],
+            "zarr_format": 2
+        },
+        "temp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth",
+                "lat",
+                "lon"
+            ],
+            "cell_methods": "area: mean depth: mean time: mean within years time: mean over years",
+            "coordinates": "time lat lon depth",
+            "grid_mapping": "crs",
+            "long_name": "Objectively analyzed mean fields for sea_water_temperature at standard depth levels.",
+            "standard_name": "sea_water_temperature",
+            "units": "degrees_celsius"
+        }
+    },
+    "zarr_consolidated_format": 1
+}
